@@ -1,0 +1,30 @@
+body{
+    background-color:rgb(143, 95, 95);
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+h2{
+    text-align: center;
+}
+.container{
+    margin-left:30%
+}
+button{
+    border-radius: 4px;
+    font-size: 20px;
+}
+#input{
+    margin:10px;
+    border-radius: 5px;
+}
+#result{
+    border:2px solid burlywood;
+    border-radius: 5px; 
+    width:50%;
+    height: 20vh;
+    margin: 10px;
+    padding:5px;
+    background-color: aliceblue;
+    color:blue;
+}
