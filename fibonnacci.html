@@ -1,0 +1,71 @@
+<!Doctype html>
+<html>
+    <head><title>Fibonnacci Sequence</title></head>
+    <body>
+        <style>
+            body{
+                background-color:rgb(143, 95, 95);
+                color: white;
+                font-family:Arial, Helvetica, sans-serif;
+        
+            }
+            h2{
+                text-align: center;
+            }
+            .container{
+                margin-left:30%
+            }
+            button{
+                border-radius: 4px;
+                font-size: 20px;
+            }
+            #input{
+                margin:10px;
+                border-radius: 5px;
+            }
+            #result{
+                border:2px solid burlywood;
+                border-radius: 5px; 
+                width:50%;
+                height: 20vh;
+                margin: 10px;
+                padding:5px;
+                background-color: aliceblue;
+                color:blue;
+            }
+
+        </style>
+        <h2> Fibonnacci sequence</h2>
+        <div class="container">
+                Enter Your value
+                <input type ="text" id="input">
+                <button onclick="fib_no()">=</button>
+                <button onclick="clear_display()">clear</button>
+        
+                <div id="result">
+                </div>
+        </div>
+        
+        <script>
+          const input= document.getElementById("input");
+          const result= document.getElementById("result");
+          function fib_no(){
+            var fib = [0, 1];
+
+            for(var i=fib.length; i < input.value; i++) {
+            fib[i] = fib[i-2] + fib[i-1];
+
+           }
+           result.innerHTML=fib;
+         }
+         function clear_display(){
+             input.value= "";
+             result.innerHTML= "";
+
+           } 
+          
+        </script>
+        
+    </body>
+</html>
+
