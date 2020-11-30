@@ -1,0 +1,19 @@
+body{
+    margin:20px 50px;
+    content: center;
+}
+h2{
+    font-family: 'Roboto'; 
+    color:#318CC1;
+}
+.form-control {
+    border-left:0px;
+    border-right:0px;
+    border-top: 0px;
+    border-bottom:1px solid grey;
+}
+button{
+    margin-top:40px;
+    background-color:#318CC1 !important;
+    color:white;
+}
