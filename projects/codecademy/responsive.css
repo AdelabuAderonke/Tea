@@ -1,0 +1,17 @@
+@media(max-width:670px){
+    body{
+    background-color:rgb(204, 121, 121);
+      
+    }
+    .main{
+        width:670px;
+        height:200px;
+    }
+    .mission{
+        width:100%;
+        height:30%;
+        /* background-image:url("images/img-mission-background.jpg"); */
+        padding-top:70px;
+    }
+
+}
